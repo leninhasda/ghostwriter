@@ -1,0 +1,26 @@
+/* ============================================================ */
+/* Footer */
+/* ============================================================ */
+
+.footer {
+    color: #666;
+    overflow: auto;
+    padding: 40px 0;
+}
+
+.footer-credit, 
+.footer-copyright {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+
+    a {
+        color: #777;
+        font-weight: 700;
+
+        &:hover { 
+            color: $primary; 
+            text-decoration: underline;
+        }
+    }
+}

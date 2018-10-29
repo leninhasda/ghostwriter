@@ -1,13 +1,12 @@
 {{#foreach posts}}
-    <li class="post-stub {{post_class}}" >
-        <a class="js-ajax-link"  title="{{title}} | {{@blog.title}}" href="{{url}}">
-            <h4 class="post-stub-title">{{title}}</h4>
-
-            <time class="post-stub-date" datetime="{{published_at}}">Published {{date format="MMMM Do YYYY"}}</time>
-
-            {{#if featured}}
-                <span class="post-stub-tag">Featured</span>
-            {{/if}}
-        </a>
-    </li>
+<li class="post-stub {{post_class}}">
+    <a class="js-ajax-link" title="{{title}} | {{@blog.title}}" href="{{url}}">
+        <time class="post-stub-date" datetime="{{published_at}}">{{date format="MMM Do YYYY"}}</time>
+        <h4 class="post-stub-title">{{title}}</h4>
+        
+        {{#if featured}}
+        <span class="post-stub-tag">Featured</span>
+        {{/if}}
+    </a>
+</li>
 {{/foreach}}

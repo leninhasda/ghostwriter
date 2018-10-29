@@ -1,0 +1,55 @@
+/* ============================================================ */
+/* General Appearance */
+/* ============================================================ */
+
+.container {
+    background: $wrap-background;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 889px;
+}
+
+#wrapper {
+    height: auto;
+
+    &:after {
+        content: "";
+        display: block;
+    }
+}
+
+.button {
+    background: $secondary;
+    border: none;
+    border-radius: 3px;
+    color: #FEFEFE;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 12px;
+    text-transform: uppercase;
+
+    &:hover { background: $primary; }
+}
+
+.button-square {
+    background: $primary;
+    color: #FFF;
+    float: left;
+    font-size: 17px;
+    margin: 0 0 0 10px;
+    padding: 3px 8px 4px;
+
+    &:hover { background: $secondary; }
+}
+
+.clearfix {
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+    }
+}

@@ -1,5 +1,18 @@
 # Ghostwriter
 
+Modified version of the original Ghost theme. 
+- updated UI a little
+- removed ajax
+- show index on home page
+- remove ajax related code
+- separated sass to multiple file
+
+### Screenshot
+
+![Ghostwriter home page](screenshot.png)
+
+---
+
 Ghostwriter is a simple AJAX driven theme for the [Ghost](http://github.com/tryghost/ghost/) blogging platform released under the MIT License.
 
 **[View a demo of Ghostwriter](http://ghost.jollygoodthemes.com/ghostwriter/)**
@@ -25,6 +38,6 @@ Ghostwriter is a simple AJAX driven theme for the [Ghost](http://github.com/tryg
 
 If you're having trouble with the browse posts link not working make sure you're using the currect URL for your environment in your Ghost config.js file. I.e. if your Ghost site is being served on http://your-site-name.com make sure you use exactly that URL in your config.js file and not for example http://www.your-site-name.com
 
-### Screenshot
+### Screenshot (old)
 
-![Ghostwriter home page](https://github.com/roryg/ghostwriter/blob/master/screenshot.png?raw=true)
+![Ghostwriter home page](screenshot-2.png)

@@ -1,0 +1,140 @@
+/* ============================================================ */
+/* Post */
+/* ============================================================ */
+
+.post-container { 
+    margin: 0 40px; 
+}
+
+.post-header {
+    border-bottom: 6px solid $secondary;
+    margin: 0 0 30px;
+    padding: 40px 0 0;
+    text-align: center;
+}
+
+.post-title,
+.page-title {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.page-title { 
+    margin: 15px 40px; 
+}
+
+.post-date,
+.blog-description {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1;
+    margin: 25px 0 0;
+
+    a { 
+        color: #AEADAD; 
+        &:hover { 
+            color: $primary; 
+        }
+    }
+
+    &:after {
+        border-bottom: 1px dotted $secondary;
+        content: "";
+        display: block;
+        margin: 40px auto 0;
+        width: 100px;
+    }
+}
+
+.post-content {
+    a:hover {
+        border-bottom: 1px dotted $primary;
+        padding: 0 0 2px;
+    }
+
+    &:last-child { 
+        margin-bottom: 0; 
+    }
+
+    .post-featured-image {
+        margin: 40px 0;
+        width: auto;
+        max-width: calc(100% + 80px);
+        margin-top: -36px;
+        margin-left: -40px;
+        margin-right: -40px;    
+    }
+}
+
+.post-footer { 
+    margin-top: 5px; 
+    padding-bottom: 20px;
+}
+
+.post-tags,
+.share {
+    color: #AEADAD;
+    font-size: 14px;
+
+    span { 
+        font-weight: 600; 
+    }
+}
+
+.post-tags {
+    float: left;
+    margin: 3px 0 0;
+    a:hover { 
+        color: $secondary; 
+    }
+}
+
+.share {
+    float: right;
+
+    a {
+        background: $primary;
+        color: #FFF;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 5px;
+        padding: 5px 0 4px;
+        width: 30px;
+        text-align: center;
+    }
+
+    a:hover { 
+        background: $secondary; 
+    }
+}
+
+.post-navigation {
+    text-align: center;
+    padding: 20px 0;
+
+    a {
+        display: inline-block;
+    }
+}
+
+.newer-posts,
+.older-posts {
+    background: $primary;
+    color: #FEFEFE;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 5px;
+    padding: 5px 10px 6px;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+    &:hover {
+        background: $secondary;
+    }
+}
+
+.page-number { 
+    display: none; 
+}
