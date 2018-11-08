@@ -52,12 +52,14 @@
 
 .post-stub-title {
     display: inline-block;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 165px;
     text-transform: none;
 }
 
 .post-stub-date {
     display: inline-block;
+    position: absolute;
+    left: 0;
 }
 
 .next-posts-link a,
