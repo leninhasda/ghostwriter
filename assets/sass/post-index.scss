@@ -24,12 +24,12 @@
         transition: all 0.2s ease-in-out;
         display: block;
         color: #424242;
-        padding: 15px 5px;
+        padding: 10px 5px;
 
         &:hover {
             background: #FCF5F5;
             color: $primary;
-            padding: 15px 12px;
+            padding: 10px 12px;
 
             .post-stub-tag { 
                 color: #fff;
@@ -54,6 +54,7 @@
     display: inline-block;
     margin: 0 0 0 165px;
     text-transform: none;
+    font-weight: 400px;
 }
 
 .post-stub-date {
